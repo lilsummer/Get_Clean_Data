@@ -6,7 +6,7 @@
   Used variables are from X_test.txt and X_train.txt.
 
 ##Names of columns and why
-#In the final tidy dataset, column 1 is the subject label, column 2 is the activity label, column 3-88 are extracted from the raw data set according to features.txt. Only means and standard deviation of the measurements are selected.
+In the final tidy dataset, column 1 is the subject label, column 2 is the activity label, column 3-88 are extracted from the raw data set according to features.txt. Only means and standard deviation of the measurements are selected.
   the names of columns are:
   
   [1] "subject"                             
