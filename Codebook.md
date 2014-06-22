@@ -98,8 +98,11 @@
 [87] "angle(Y,gravityMean)"                
 [88] "angle(Z,gravityMean)"  
 
-
-      - names of columns and why
-     -  units of data if known
-     - reference or link to original data info
+##Unites of data if known
+     The data has been scaled by dividing by the range, and when you divide units by the same units, the units are cancelled. Therefore, the data in the final data sets are free of units.
+     Please see (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) for further information.
+     
+##Reference or link to original data info
+     The data was downloaded from (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+     
 
