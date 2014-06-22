@@ -6,7 +6,9 @@
   Used variables are from X_test.txt and X_train.txt.
 
 ##Names of columns and why
-  In the final tidy dataset, the names of columns are:
+#In the final tidy dataset, column 1 is the subject label, column 2 is the activity label, column 3-88 are extracted from the raw data set according to features.txt. Only means and standard deviation of the measurements are selected.
+  the names of columns are:
+  
   [1] "subject"                             
   [2] "activity"                            
   [3] "tBodyAcc-mean()-X"                   
@@ -94,7 +96,9 @@
 [85] "angle(tBodyGyroJerkMean,gravityMean)"
 [86] "angle(X,gravityMean)"                
 [87] "angle(Y,gravityMean)"                
-[88] "angle(Z,gravityMean)"      
+[88] "angle(Z,gravityMean)"  
+
+
       - names of columns and why
      -  units of data if known
      - reference or link to original data info
